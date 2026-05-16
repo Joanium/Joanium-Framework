@@ -35,7 +35,7 @@
   "publish": {
     "provider": "github",
     "owner": "Joanium",
-    "repo": "Joanium",
+    "repo": "Joanium-Classic",
     "vPrefixedTagName": true,
     "releaseType": "release"
   },

@@ -26,10 +26,10 @@ export function initAboutModal() {
         <div class="about-modal-body">
 
           <div class="about-logo-wrap">
-            <img src="../../../Assets/Logo/Logo.png" alt="Joanium" width="64" height="64" />
+            <img src="../../../Assets/Logo/Logo.png" alt="Joanium Classic" width="64" height="64" />
           </div>
 
-          <div class="about-app-name" id="about-modal-title">Joanium</div>
+          <div class="about-app-name" id="about-modal-title">Joanium Classic</div>
           <div class="about-version" id="about-version">v1.0.0</div>
 
           <p class="about-description">

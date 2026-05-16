@@ -49,7 +49,7 @@ jobs:
           [ -z "${BULLETS}" ] && BULLETS="See the release notes for details."
 
           PAYLOAD=$(jq -n \
-            --arg title "🚀 Joanium ${VERSION} released" \
+            --arg title "🚀 Joanium Classic ${VERSION} released" \
             --arg url "${URL}" \
             --arg desc "${BULLETS}" \
             --arg download "https://www.joanium.com/download" \
@@ -64,7 +64,7 @@ jobs:
                   { name: "Download", value: ("[joanium.com/download](" + $download + ")"), inline: true },
                   { name: "Changelog", value: ("[CHANGELOG.md](" + $changelog + ")"), inline: true }
                 ],
-                footer: { text: "Joanium · local-first AI desktop assistant" }
+                footer: { text: "Joanium Classic · local-first AI desktop assistant" }
               }]
             }')
 
