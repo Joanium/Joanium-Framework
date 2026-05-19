@@ -78,7 +78,7 @@
   },
   "devDependencies": {
     "clean-css": "5.3.3",
-    "electron": "42.1.0",
+    "electron": "42.2.0",
     "electron-builder": "^26.10.0",
     "eslint": "10.4.0",
     "eslint-plugin-unused-imports": "4.4.1",
